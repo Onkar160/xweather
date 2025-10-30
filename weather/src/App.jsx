@@ -33,7 +33,7 @@ function App() {
       .catch((error) => {
         // console.log(error);
         setLoading(false);
-        alert("Error: ", error);
+        alert("Failed to fetch weather data");
       });
   };
 
