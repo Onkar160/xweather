@@ -50,7 +50,15 @@ function App() {
           />
           <button type="submit">Search</button>
         </form>
-        <div className={`${styles["weather-cards"]}]`}>
+        <div
+          className={"weather-cards"}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: "20px",
+          }}
+        >
           {isLoading ? (
             <p className={styles.loading}>Loading data...</p>
           ) : weatherData ? (

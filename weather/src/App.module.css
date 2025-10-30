@@ -30,10 +30,3 @@ button {
 button:hover {
     opacity: 0.9;
 }
-
-.weather-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
