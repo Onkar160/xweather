@@ -50,7 +50,7 @@ function App() {
           />
           <button type="submit">Search</button>
         </form>
-        <div className={styles["weather-cards"]}>
+        <div className={`${styles["weather-cards"]}]`}>
           {isLoading ? (
             <p className={styles.loading}>Loading data...</p>
           ) : weatherData ? (
